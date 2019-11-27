@@ -8,6 +8,6 @@ namespace NetworkAddressClientManager.Models
     public class UserNetwork
     {
         public User User { get; set; }
-        public Network IpNetwork { get; set; }
+        public Subnet UserSubnet { get; set; }
     }
 }

@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.HttpOverrides;
 
 namespace NetworkAddressClientManager.Models
 {
-    public class Network
+    public class Subnet
     {
         public long Id { get; set; }
-        public IPNetwork IpNetwork { get; set; }
+        public IPNetwork IpSubnet { get; set; }
     }
 }
