@@ -12,7 +12,7 @@ namespace NetworkAddressClientManager.Controllers
         {
             var p = new DAL.DatabaseRepository();
             var users = p.GetUsers();
-            return View();
+            return View(@"/Pages/Index");
         }
     }
 }
